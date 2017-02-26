@@ -1,0 +1,4 @@
+RewriteEngine ON
+
+RewriteRule ^user/(.*) index.php?action=user&id=$1 [L]
+RewriteRule ^posts index.php?action=post [L]
